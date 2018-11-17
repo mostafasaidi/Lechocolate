@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-sm-8 col-12 ">
+                <div class="card mb-3">
+                    <div class="card-header bg-warning">Reserve your baskets</div>
+                    <div class="card-body">
+                        <form id="bskt" action="">
+                            <div class="form-group row">
+                                <div class="col-sm-3">
+                                    <label for="radiobtn">Number of baskets</label>
+                                </div>
+
+                                <div class="col-sm-9">
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optradio">1
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optradio">2
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optradio">3
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optradio">4
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optradio">5
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optradio">6
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <p class="col-sm-3">Date and Time</p>
+                                <div class="input-group col-sm-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="date" class="form-control" placeholder="Date" id="date" name="date">
+                                </div>
+
+                                <div class="input-group col-sm-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="time" class="form-control" placeholder="Time" id="time" name="time">
+
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <input type="submit" class="btn btn-primary" value="Reserve">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
